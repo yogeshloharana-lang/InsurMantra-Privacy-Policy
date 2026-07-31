@@ -5,152 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - InsurMantra</title>
     <style>
-        :root {
-            --primary-color: #0F52BA;
-            --text-color: #2D3748;
-            --bg-color: #F7FAFC;
-            --card-bg: #FFFFFF;
-            --border-color: #E2E8F0;
-        }
-
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            margin: 0;
-            padding: 20px;
-        }
-
-        .container {
+            color: #2c3e50;
             max-width: 800px;
             margin: 0 auto;
-            background: var(--card-bg);
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-            border: 1px solid var(--border-color);
-        }
-
-        h1 {
-            color: var(--primary-color);
-            font-size: 2.2rem;
-            margin-bottom: 8px;
-            border-bottom: 3px solid var(--primary-color);
-            padding-bottom: 12px;
-        }
-
-        .last-updated {
-            font-size: 0.9rem;
-            color: #718096;
-            margin-bottom: 24px;
-        }
-
-        h2 {
-            color: #1A202C;
-            font-size: 1.4rem;
-            margin-top: 32px;
-            margin-bottom: 12px;
-        }
-
-        p, li {
-            font-size: 1rem;
-            color: #4A5568;
-        }
-
-        ul {
-            padding-left: 24px;
-        }
-
-        li {
-            margin-bottom: 8px;
-        }
-
-        .highlight-box {
-            background-color: #EBF8FF;
-            border-left: 4px solid var(--primary-color);
-            padding: 16px;
-            border-radius: 4px;
-            margin: 20px 0;
-        }
-
-        .contact-box {
-            background-color: #EDF2F7;
             padding: 20px;
-            border-radius: 8px;
-            margin-top: 24px;
+            background-color: #f8f9fa;
         }
-
-        a {
-            color: var(--primary-color);
-            text-decoration: none;
+        .container {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
         }
-
-        a:hover {
-            text-decoration: underline;
-        }
+        h1 { color: #0d6efd; font-size: 28px; margin-bottom: 5px; }
+        h2 { color: #1e293b; font-size: 20px; margin-top: 25px; border-bottom: 2px solid #e2e8f0; padding-bottom: 5px; }
+        p, li { font-size: 15px; color: #475569; }
+        ul { padding-left: 20px; }
+        .last-updated { font-size: 13px; color: #64748b; margin-bottom: 20px; }
+        .contact-box { background: #f1f5f9; padding: 15px; border-radius: 8px; margin-top: 20px; border-left: 4px solid #0d6efd; }
+        a { color: #0d6efd; text-decoration: none; }
+        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
+    <div class="container">
+        <h1>Privacy Policy for InsurMantra</h1>
+        <div class="last-updated">Effective Date: July 31, 2026</div>
 
-<div class="container">
-    <h1>Privacy Policy</h1>
-    <p class="last-updated">Last Updated: July 31, 2026</p>
+        <p>Welcome to <strong>InsurMantra</strong>. Your privacy is critically important to us. This Privacy Policy document describes how information is collected, used, and safeguarded when you use our mobile application.</p>
 
-    <p>Welcome to <strong>InsurMantra</strong>. We respect your privacy and are committed to protecting your personal data and client records. This Privacy Policy outlines how we collect, use, store, and safeguard your information when you use our mobile application.</p>
-
-    <h2>1. Information We Collect</h2>
-    <p>To provide insurance management and portfolio tracking services, we may collect the following types of information:</p>
-    <ul>
-        <li><strong>Personal Information:</strong> Email address, User ID (UID), and authentication tokens provided when creating an account or logging in via Google Sign-In or Firebase Authentication.</li>
-        <li><strong>Insurance & Client Records:</strong> Client details (names, phone numbers, policy numbers, premium amounts, due dates, renewal statuses, and claim details) entered by you into the app.</li>
-        <li><strong>Device & Analytics Data:</strong> IP address, device identifiers, app usage statistics, and crash logs collected automatically via Firebase Analytics.</li>
-    </ul>
-
-    <h2>2. How We Use Your Information</h2>
-    <p>Your information is used strictly for the following operational purposes:</p>
-    <ul>
-        <li>To synchronize client portfolios and policies across your authorized devices via Google Cloud Firestore.</li>
-        <li>To generate policy renewal alerts, payment reminders, and policy summaries.</li>
-        <li>To authenticate user sessions securely and maintain account privacy.</li>
-        <li>To display localized non-personalized or personalized advertisements via Google AdMob.</li>
-        <li>To detect and fix crashes and improve overall app stability.</li>
-    </ul>
-
-    <h2>3. Third-Party Services</h2>
-    <p>InsurMantra integrates with trusted third-party SDKs that may collect data in accordance with their respective privacy policies:</p>
-    <ul>
-        <li><a href="https://policies.google.com/privacy" target="_blank">Google Play Services</a></li>
-        <li><a href="https://firebase.google.com/support/privacy" target="_blank">Google Firebase (Authentication, Firestore, Analytics)</a></li>
-        <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank">Google AdMob</a></li>
-    </ul>
-
-    <h2>4. Data Storage and Protection</h2>
-    <p>Your data is stored locally on your device using encrypted Room SQLite database caching and synced securely to Google Cloud Firestore servers using SSL/TLS encryption. We do not sell, rent, or trade your personal or client data to third-party marketers.</p>
-
-    <div class="highlight-box">
-        <h2>5. Account and Data Deletion Policy (Google Play Compliance)</h2>
-        <p>You have full ownership and control over your data. In accordance with Google Play Developer Policies, we provide immediate self-service options inside the application:</p>
+        <h2>1. Information Collection and Storage</h2>
+        <p>InsurMantra is designed to help insurance agents manage clients, policies, claims, and renewal reminders effectively.</p>
         <ul>
-            <li><strong>Wipe All Client & Policy Data:</strong> In <em>Settings &gt; Account Settings</em>, you can select <strong>"Wipe All My Data"</strong> to permanently erase all client profiles, policies, claims, and tasks from both your device and Firebase Cloud servers while keeping your login account active.</li>
-            <li><strong>Delete Account & Cloud Backup:</strong> In <em>Settings &gt; Account Settings</em>, you can select <strong>"Delete Account & Cloud Data Permanently"</strong> to completely delete your account authentication profile and all synced cloud records.</li>
-            <li><strong>Manual Request:</strong> You may also request complete data and account removal by emailing us at <a href="mailto:yogeshloharana@gmail.com">yogeshloharana@gmail.com</a>. All data will be permanently wiped within 7 business days of request verification.</li>
+            <li><strong>Local Data Storage:</strong> All personal data entered into the app (such as client names, contact details, policy numbers, and renewal dates) is primarily stored locally on your device using a secure local database (Room Database).</li>
+            <li><strong>Cloud Sync (Optional):</strong> If you choose to enable Firebase Cloud Backup/Sync, your encrypted data will be stored securely on Google Firebase servers to allow multi-device sync and restoration.</li>
         </ul>
+
+        <h2>2. Third-Party Services & Advertising</h2>
+        <p>The app utilizes third-party services that may collect information used to identify you or deliver targeted advertisements:</p>
+        <ul>
+            <li><strong>Google Play Services:</strong> Required for application stability, essential runtime functionality, and app updates.</li>
+            <li><strong>Google AdMob:</strong> We use Google AdMob to display advertisements in the application. AdMob may collect device identifiers (such as Android Advertising ID), IP address, and usage data to serve personalized or contextual ads.</li>
+            <li><strong>Firebase / Firestore:</strong> Used for optional cloud backup and authentication services.</li>
+        </ul>
+
+        <h2>3. Permissions Required</h2>
+        <p>The application may request certain permissions to provide seamless features:</p>
+        <ul>
+            <li><strong>Internet Access:</strong> Required to fetch dynamic policy quotes, perform cloud sync, and display AdMob advertisements.</li>
+            <li><strong>Notifications:</strong> Used to alert you about upcoming policy renewals, client follow-ups, and custom tasks.</li>
+        </ul>
+
+        <h2>4. Data Protection & Security</h2>
+        <p>We value your trust in providing us your information. We strive to use commercially acceptable means of protecting your personal data. However, no method of transmission over the internet or method of electronic storage is 100% secure.</p>
+
+        <h2>5. Children's Privacy</h2>
+        <p>InsurMantra does not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and are aware that your child has provided us with personal information, please contact us so we can take necessary actions.</p>
+
+        <h2>6. Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes. Changes are effective immediately after they are posted on this page.</p>
+
+        <h2>7. Contact Us</h2>
+        <p>If you have any questions, suggestions, or concerns regarding this Privacy Policy, please feel free to contact us:</p>
+        <div class="contact-box">
+            <strong>Developer Contact Email:</strong> <a href="mailto:contact@fincalchub.shop">contact@fincalchub.shop</a><br>
+            <strong>Application Name:</strong> InsurMantra
+        </div>
     </div>
-
-    <h2>6. Children's Privacy</h2>
-    <p>InsurMantra is intended for licensed insurance advisors and financial planners. We do not knowingly collect personal identifiable information from children under 13 years of age.</p>
-
-    <h2>7. Changes to This Privacy Policy</h2>
-    <p>We may update our Privacy Policy periodically. Any changes will be posted on this page with an updated "Last Updated" date.</p>
-
-    <div class="contact-box">
-        <h2>8. Contact Us</h2>
-        <p>If you have any questions or suggestions regarding this Privacy Policy, please feel free to contact us at:</p>
-        <p><strong>Email:</strong> <a href="mailto:yogeshloharana@gmail.com">yogeshloharana@gmail.com</a><br>
-        <strong>App Name:</strong> InsurMantra - Insurance Portfolio & Policy Manager</p>
-    </div>
-</div>
-
 </body>
 </html>
